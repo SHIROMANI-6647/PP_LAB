@@ -1,0 +1,45 @@
+empty_tuple=()
+print(empty_tuple)
+tup='Good','morning'
+print(tup)
+tup=('Good','morning')
+print(tup)
+tuple1=(50,40,27,36)
+tuple2=('Good','morning')
+print(tuple1+tuple2)
+tuple1=(50,40,27,36)
+tuple2=('Good','morning')
+tuple3=(tuple1,tuple2)
+print(tuple3)
+type3=('Good',)*3
+print(tuple3)
+tuple1 = (0 ,1, 2, 3)
+print(tuple1[1:])
+print(tuple1[::-1])
+print(tuple1[2:4])
+tuple2 = ('Good', 'morning')
+print(len(tuple2))
+list1 =[0, 1, 2]
+print(tuple(list1))
+print(tuple('Good'))
+tuple1 = (0, 1, 2, 3)
+tuple1[0] = 4
+print(tuple1)
+#output:
+()
+('Good', 'morning')
+('Good', 'morning')
+(50, 40, 27, 36, 'Good', 'morning')
+((50, 40, 27, 36), ('Good', 'morning'))
+((50, 40, 27, 36), ('Good', 'morning'))
+(1, 2, 3)
+(3, 2, 1, 0)
+(2, 3)
+2
+(0, 1, 2)
+('G', 'o', 'o', 'd')
+Traceback (most recent call last):
+  File "C:/Users/deepi/Documents/tuples.py", line 26, in <module>
+    tuple1[0] = 4
+TypeError: 'tuple' object does not support item assignment
+
