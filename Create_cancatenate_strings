@@ -1,0 +1,42 @@
+#creating string
+str='Praize the lord!'
+print("String with single quotes:",str)
+str="God bless you"
+print("String with double quotes:",str)
+str='''Hallelujah!'''
+print("String with triple quotes",str)
+str="""Light will shine
+on your ways"""
+print("Multiline string:", str)
+#string concatenation
+str1="Palwai "
+str2="shiromani"
+#+operator
+print(str1 + str2)
+#join()Method
+print("".join([str1,str2]))
+#%Operator
+print("%s%s"%(str1,str2))
+#format()function
+print("{}{}".format(str1,str2))
+#comma
+print(str1,str2)
+#accessing sub-strings
+s='Self motivated'
+print(s[0])
+print(s[:3])
+print(s[2:5])
+#Output:
+String with single quotes: Praize the lord!
+String with double quotes: God bless you
+String with triple quotes Hallelujah!
+Multiline string: Light will shine
+on your ways
+Palwai shiromani
+Palwai shiromani
+Palwai shiromani
+Palwai shiromani
+Palwai  shiromani
+S
+Sel
+lf 
