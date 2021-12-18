@@ -1,0 +1,26 @@
+val1=float(input("First value:"))
+val2=float(input("Second value:"))
+res=val1+val2
+print("Additon:",res)
+res=val1-val2
+print("Subtaction:",res)
+res=val1*val2
+print("Multiplication:",res)
+res=val1/val2
+print("Float division:",res)
+res=val1%val2
+print("Modulus:",res)
+res=val1**val2
+print("Power:",res)
+res=val1//val2
+print("Floor division:",res)
+#Output:
+First value:6.93
+Second value:7.73
+Additon: 14.66
+Subtaction: -0.8000000000000007
+Multiplication: 53.5689
+Float division: 0.8965071151358344
+Modulus: 6.93
+Power: 3154045.1326274816
+Floor division: 0.0
