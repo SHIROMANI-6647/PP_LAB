@@ -1,0 +1,10 @@
+a=5
+print("Type of a:",type(a))
+a=7.73
+print("Type of a:",type(a))
+a=2+3j
+print("Type of a:",type(a))
+#Output:
+Type of a: <class 'int'>
+Type of a: <class 'float'>
+Type of a: <class 'complex'>
