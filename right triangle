@@ -1,0 +1,16 @@
+base=float(input("Enter length of Base : "))
+perp=float(input("Enter length of Perpendicular : "))
+hypo=float(input("Enter length of Hypotenuse : "))
+if hypo**2==((base**2)+(perp**2)):
+    print("It's a right triangle")
+else:
+    print("It's not a right triangle")
+    
+Enter length of Base : 3
+Enter length of Perpendicular : 4
+Enter length of Hypotenuse : 5
+It's a right triangle
+Enter length of Base : 5
+Enter length of Perpendicular : 6
+Enter length of Hypotenuse : 7
+It's not a right triangle
