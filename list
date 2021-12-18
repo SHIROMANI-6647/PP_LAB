@@ -1,0 +1,23 @@
+list=list(("Ruth","Esther"))
+print(list)
+list.append("Blessi")
+print(list)
+another_list=[1,2,3]
+list.append(another_list)
+print(list)
+list.remove("Esther")
+print(list)
+list.pop(2)
+print(list)
+del list[0]
+print(list)
+list.clear()
+print(list)
+#Output:
+['Ruth', 'Esther']
+['Ruth', 'Esther', 'Blessi']
+['Ruth', 'Esther', 'Blessi', [1, 2, 3]]
+['Ruth', 'Blessi', [1, 2, 3]]
+['Ruth', 'Blessi']
+['Blessi']
+[]
