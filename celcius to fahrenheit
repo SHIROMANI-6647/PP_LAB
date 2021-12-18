@@ -1,0 +1,7 @@
+celsius = float(input())
+fahrenheit = (celsius * 1.8) + 32
+print('%.2f Celsius is equivalent to: %.2f Fahrenheit'
+      %(celsius, fahrenheit))
+      
+40
+40.00 Celsius is equivalent to: 104.00 Fahrenheit
